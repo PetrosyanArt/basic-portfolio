@@ -23,7 +23,7 @@ main {
 
     width: 960px;
     height: 100%;
-    margin: 0 auto 0 auto;
+    margin: 20px auto 0 auto;
     background-color: whitesmoke;
     /* position: relative; */
     top: 200px;
@@ -45,6 +45,8 @@ main {
     position: absolute;
     width: 220px;
     margin-top: 20px;
+    left: 40px;
+    right: 40px;
 
 }
 
@@ -95,6 +97,7 @@ footer {
     text-align: center;
     padding: 20px;
     line-height: 40px;
+    margin-top: 10px;
 }
 
 h1 {
@@ -142,4 +145,36 @@ hr {
 .clr {
 
     clear: both;
+}
+
+.my-form {
+
+    padding: 20px;
+}
+
+.my-form .form-grop {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display:block;
+}
+
+.my-form input [type="button"] {
+
+    padding: 10px;
+    width: 80%;
+} 
+
+.my-form textarea {
+    padding: 8px;
+    width: 80%;
+}
+
+.button {
+
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
 }
