@@ -81,10 +81,27 @@ main {
     content: " | ";
 }
 
+
 a {
 
     color: whitesmoke;
     text-decoration: none;
+}
+
+a:hover {
+    color: coral;
+}
+
+a:active {
+    color: yellow;
+}
+
+/* a:visited {
+    color: yellow; */
+}
+
+a:focus {
+    color:blue;
 }
 
 footer {
@@ -147,6 +164,7 @@ hr {
     clear: both;
 }
 
+/* form css starts here */
 .my-form {
 
     padding: 20px;
@@ -177,4 +195,42 @@ hr {
     color: #fff;
     padding: 10px 15px;
     border: none;
+}
+
+/* portfolio css */
+
+.container-box {
+    position: relative;
+    font-family: Arial;
+    width:350px;
+    margin-left:20px;
+    margin-top:20px;
+  
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    width: 350px;
+    height: 50px;
+    right: 0;
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .left-box {
+
+    float: left;
+    margin-right: 20px;
+    width: 35%;  
+  }
+
+  .right-box {
+
+    float: right;
+    margin-right: 20px;
+    width: 35%;  
 }
