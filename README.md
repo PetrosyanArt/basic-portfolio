@@ -1,2 +1,2 @@
 # basic-portfolio
-Engaging visual storyteller with experience conceptualizing and executing short video projects from beginning to end. Skilled at green screen work, lighting, studio shooting, location shooting, and multiple post-production tasks.
+First attempt at building a website to showcase my video,photography and design work. 
